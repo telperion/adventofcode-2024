@@ -141,7 +141,7 @@ std::optional<std::string> load_data(std::string path_to_input) {
 
 int main(int argc, const char* argv[]) {
     if (argc < 2 || argc > 3) {
-        std::cout << "Advent of Code 01" << std::endl;
+        std::cout << "Advent of Code 02" << std::endl;
         std::cout << ">   -1 [path_to_input]: run part 1" << std::endl;
         std::cout << ">   -2 [path_to_input]: run part 2" << std::endl;
         return 1;
