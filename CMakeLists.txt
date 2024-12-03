@@ -10,3 +10,7 @@ set(CMAKE_BUILD_TYPE DEBUG)
 add_executable(day_01 01/day_01.cpp)
 add_test(NAME test_01_part1 COMMAND day_01 -1)
 add_test(NAME test_01_part2 COMMAND day_01 -2)
+
+add_executable(day_02 02/day_02.cpp)
+add_test(NAME test_02_part1 COMMAND day_02 -1)
+add_test(NAME test_02_part2 COMMAND day_02 -2)
